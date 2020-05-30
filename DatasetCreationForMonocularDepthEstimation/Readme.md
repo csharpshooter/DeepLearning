@@ -47,7 +47,7 @@ We mainly downloaded images from internet without background, for some images we
 We figure out that mask images are nothing but alpha channels of images. So we extracted masks using following code image = cv2.imread("Foregroundimg.png", cv2.IMREAD_UNCHANGED) imagealpha = image[:,:,3] cv2.imwrite("ForegroundMask.jpg", imagealpha)
 
 #### how did you overlay the fg over bg and created 20 variants
-first all background images were resized to 160x160
+first all background images were resized to 224*224
 all foreground images were resized to 80(max side) and other side was reshaped as per aspect ratio
 images were randomly placed by choosing starting x,y randomly on background, but also making sure that foreground image doesnot go out of background image.
 Code for generation of data is mentioned in DataGeneration.py
