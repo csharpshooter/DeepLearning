@@ -1,4 +1,3 @@
-## EVA Assignment 12
 ----------------------
 ## Name : Abhijit Mali
 ----------------------
@@ -6,16 +5,16 @@
 ---------------------------------------------------------------------------------------------------------------------------
 1. Achieved Max Accuracy of 54.42%. Crossed 50% accuracy 4 times. Used onecycle policy with annealing i.e. traingular2 mode
 
-![triangleplot](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/TrianglePlot.png)
+![triangleplot](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/TrianglePlot.png)
 
 2. Read images from train and val folder folders after extracting and did 70-30 train-val split in memory. Parsed train and test data by returning image path and labels from dataset files. Stored image paths and loaded image from disk in tinyimagenet dataset in __getitem__ method. Loaded class labels from words.txt and loaded class id's from wnids.txt
 
-![Imgfromdataset](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/imagesfromdataset.png)
+![Imgfromdataset](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/imagesfromdataset.png)
 
 3. Ran model for 20 epochs for lr range test. LR range tested from 0.01 to 0.1. Found optimal Lr between 0.04935 to 0.0038.
 Max LR = 0.068 ,Min LR = Max LR / 13 = 0.00523
 
-![lrrangefinder](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/lrrangetestgraph.png)
+![lrrangefinder](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/lrrangetestgraph.png)
 
 4. Max train accuracy =  78.63, max test accuracy = 54.42. Tried different training method this time. Cloned git repo to colab and then trained from colab
 
@@ -28,10 +27,10 @@ Max LR = 0.068 ,Min LR = Max LR / 13 = 0.00523
  
  6. Added Tensorboard visualization
 
- ![ModelGraph](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/ModelGraphTensorBoard.png)
- ![Graphs](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/TensorBoardGraphs.png)
- ![Dist](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/TensorBoardDistribution.png)
- ![Hist](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/TensorBoardHistogram.png)
+ ![ModelGraph](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/ModelGraphTensorBoard.png)
+ ![Graphs](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/TensorBoardGraphs.png)
+ ![Dist](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/TensorBoardDistribution.png)
+ ![Hist](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/TensorBoardHistogram.png)
     
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -39,17 +38,17 @@ Max LR = 0.068 ,Min LR = Max LR / 13 = 0.00523
 ## Project Structure
 --------------------
 
-![ProjectStructure](https://github.com/csharpshooter/EVA/blob/master/A11/images/projectstructure.png)
+![ProjectStructure](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/projectstructure.png)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Test and Train, Loss and Accuracy Graphs
 
-![Graphs](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/traintestgraphs.png)
+![Graphs](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/traintestgraphs.png)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Model Summary
 
-![ModelSummary](https://github.com/csharpshooter/EVA/blob/master/A12/A12-A/images/modelsummary.png)
+![ModelSummary](https://github.com/csharpshooter/DeepLearning/blob/master/TrainingRestnet18withTinyImagenetDataset/images/modelsummary.png)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Logs
