@@ -59,10 +59,10 @@ Order
 ## Test and Train, Loss and IOU Graphs
 
 Mask
-![MaskGraphs](https://github.com/csharpshooter/EVA/blob/master/A15-PartB/images/traintestgraphs_mask.png)
+![MaskGraphs](https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/images/traintestgraphs_mask.png)
 
 Depth Mask
-![DepthMaskGraphs](https://github.com/csharpshooter/EVA/blob/master/A15-PartB/images/traintestgraphs_depthmasks.png)
+![DepthMaskGraphs](https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/images/traintestgraphs_depthmasks.png)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Model Summary
