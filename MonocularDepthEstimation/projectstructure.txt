@@ -1,0 +1,64 @@
+
+├── A11.ipynb
+├── A11.py
+├── customresnet_onecycle_A11
+├── images
+├── projectstructure.txt
+├── Readme.md
+├── requirements.txt
+├── savedmodels
+├── savednotebooks
+└── src
+    ├── dataset
+    │   ├── customcifar10.py
+    │   ├── dataloader.py
+    │   ├── dataset.py
+    │   ├── __init__.py
+    │     
+    ├── __init__.py
+    ├── models
+    │   ├── A11CustomResnetModel.py
+    │   ├── cnn_model.py
+    │   ├── depthwise_seperable_conv2d.py
+    │   ├── __init__.py    │   
+    │   ├── quizdnn.py
+    │   └── resnet.py
+    ├── preprocessing
+    │   ├── albumentationstransforms.py
+    │   ├── customcompose.py
+    │   ├── cutout.py
+    │   ├── GaussianNoise.py
+    │   ├── __init__.py
+    │   ├── preprochelper.py
+    │   └── pytorchtransforms.py
+    │
+    ├── train
+    │   ├── __init__.py
+    │   ├── lrfinder
+    │   │   ├── __init__.py
+    │   │   ├── lrfinder.py
+    │   ├── trainhelper.py
+    │   └── train_model.py
+    ├── utils
+    │   ├── __init__.py
+    │   ├── modelutils.py
+    │   └── utils.py
+    └── visualization
+        ├── base.py
+        ├── gradcam
+        │   ├── gradcamhelper.py
+        │   ├── gradcam.py
+        │   ├── __init__.py
+        │   ├── oldgradcam.py
+        ├── __init__.py
+        ├── plotdata.py
+        ├── saliency
+        │   ├── __init__.py
+        │   └── saliencymap.py
+        ├── tensorboard
+        │   ├── __init__.py
+        │   └── tensorboardhelper.py
+        └── weights
+            ├── __init__.py
+            └── weights.py
+

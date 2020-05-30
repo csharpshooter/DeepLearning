@@ -1,0 +1,12 @@
+numpy==1.18.1
+Pillow~=7.0.0
+requests~=2.22.0
+torchsummary==1.5.1
+
+matplotlib~=3.1.2
+torch~=1.4.0
+torchvision~=0.5.0
+tqdm~=4.42.0
+apex~=0.1
+imageio~=2.6.1
+albumentations~=0.4.5
