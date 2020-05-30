@@ -10,10 +10,10 @@ Model Params Count for Depth Mask model :- 492,947
 Model Params Count for Mask model :- 197,558
 
 For Depth Map used the following python notebook:
-https://github.com/csharpshooter/EVA/blob/master/A15-PartB/A15_B_DM.ipynb
+https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/A15_B_DM.ipynb
 
 For Mask:
-https://github.com/csharpshooter/EVA/blob/master/A15-PartB/A15_B_Mask.ipynb
+https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/A15_B_Mask.ipynb
 
 Strategy of training:
 First train both models for 64x64 image size, then 128x128 and then 224x224
@@ -51,9 +51,9 @@ Order
 4. Depth mask ground truth
 5. Depth mask predicted
 
-![O1](https://github.com/csharpshooter/EVA/blob/master/A15-PartB/images/SampleOutput.JPG)
-![O2](https://github.com/csharpshooter/EVA/blob/master/A15-PartB/images/SampleOutput1.JPG)
-![O3](https://github.com/csharpshooter/EVA/blob/master/A15-PartB/images/SampleOutput2.JPG)
+![O1](https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/images/SampleOutput.JPG)
+![O2](https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/images/SampleOutput1.JPG)
+![O3](https://github.com/csharpshooter/DeepLearning/blob/master/MonocularDepthEstimation/images/SampleOutput2.JPG)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Test and Train, Loss and IOU Graphs
