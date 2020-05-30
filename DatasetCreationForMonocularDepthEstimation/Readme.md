@@ -5,7 +5,7 @@
 ## Notes 
 ---------------------------------------------------------------------------------------------------------------------------
 
-### Create this dataset and share a link to GDrive (publicly available to anyone) in this readme file. https://drive.google.com/drive/folders/1MST5DUffe3h9Q4B-x7tpNxXl4q4_E8ah
+### Create this dataset and share a link to GDrive (publicly available to anyone) in this readme file. https://drive.google.com/drive/folders/1NXUBngY_z3M6d9DYs8KQZTXo9b7zIF8u?usp=sharing
 
 ![f](https://github.com/csharpshooter/EVA/blob/master/A15-PartA/Images/FolderStructure1.JPG)
 ![f](https://github.com/csharpshooter/EVA/blob/master/A15-PartA/Images/FolderStructure2.JPG)
@@ -38,26 +38,6 @@ fg :- 200(flip + no flip), bg :- 100, fg_bg :- 392783, masks :- 392469, depth :-
 
 #### depth :- (BGR format) Mean: - [0.2943823440611593, 0.2943823440611593, 0.2943823440611593] stdDev: - [0.15619204938398595, 0.15619204938398595, 0.15619204938398595]
 
-### Show your dataset the way I have shown above in this readme
-
-##### Background Images 
-![bg](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/background.png)
-
-##### Foreground Images 
-![fg](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/foreground.png)
-
-##### Foreground Masks 
-![fm](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/Masks.png)
-
-##### Foreground+Background 
-![fg+bg](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/OverlayedImages.png)
-
-##### Foreground+Background Mask 
-![fg+bg mas](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/OverlayedDepthMask.png)
-
-##### DepthMap 
-![dm](https://github.com/gdeotale/EVA4/raw/master/Week14/Images/Overlayed.png)
-
 ### Explain how you created your dataset
 
 #### how were fg created with transparency 
@@ -75,8 +55,3 @@ Code for generation of data is mentioned in DataGeneration.py
 #### how did you create your depth images?
 Although we used mostly same code as given in assignment for depthimage, we need to modify code to save images.
 We have modified code in utils.py and test.py to save images directly to drive
-Following is code for saving data https://github.com/gdeotale/EVA4/tree/master/Week14/DenseDepth/test.py https://github.com/gdeotale/EVA4/tree/master/Week14/DenseDepth/utils.py
-
-#### how full data was created?
-Creating full dataset singlehandedly was quite taxing, so we subdivided data in 4 people, each one created 100000 fg_bg, 100000 masks, 100000 depth images
-At the end we merged all folders data in one drive by sharing of folders with each other.
